@@ -3,27 +3,27 @@
     padding: 0;
     margin: 0;
 }
-
+/* General background color for all content unless called out otherwise.*/
 body {
     background-color: #d9dcd6;
 }
-
+/* Header selectors define parameters of the header block, background color of the box, font and color of the Horiseon logo.*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* sets the logo text to display inline at a font size of 48px */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* adjust the class seo to the hex color. */
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Positions the navigation links and sets their color and font. */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,7 +31,7 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* sets the nav list to remove the list style and display inline with a margin */
 header nav li {
     list-style-type: none;
     display: inline-block;
@@ -42,11 +42,11 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* font size for all <p> */
 p {
     font-size: 16px;
 }
-
+/* places a background image in the background-image class with a width of 100% and a height of 800px. Image is centered within the block.*/
 .background-image {
     height: 800px;
     width: 100%;
@@ -82,17 +82,17 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
 }
-
+/* Adds a bottom margin and text color for any element using the class*/
 .benefits-structure {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Adds a bottom margin and aligns text center for any h3 element using the benefits-structure class */
 .benefits-structure h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Adjusts any image using the benefits-structure class to block display with margin and max-width of the image to 150px */
 .benefits-structure img {
     display: block;
     margin: 10px auto;
@@ -108,23 +108,23 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* sets a max height of 200px to any image using the information class */
 .information img {
     max-height: 200px;
 }
-
+/* sets a bottom margin and font size for any h2 using the information class */
 .information h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* sets basic footer positioning and font treatment */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* sets any h2 within the footer to a font size of 20px */
 footer h2 {
     font-size: 20px;
 }
